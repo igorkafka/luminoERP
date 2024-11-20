@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B2053606-2C43-4EA8-B8E2-E235FFCE1856}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{11ED314E-F3CF-456F-A84C-D1DE67DD8461}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{5F69FBF0-A8FE-4611-B06E-0782192BFED6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9EBBE3B7-17F4-41D8-B4D3-C523953DE89B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{BD14D6A3-0C0B-488C-A261-68A0B1728D29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8D309C4A-9B3A-49AF-A1CF-80BC5D2B64A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuminoERP.Core", "src\building blocks\LuminoERP.Core\LuminoERP.Core.csproj", "{BD0173CA-6D3A-43E0-A0B2-5350A745B20A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD0173CA-6D3A-43E0-A0B2-5350A745B20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0173CA-6D3A-43E0-A0B2-5350A745B20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0173CA-6D3A-43E0-A0B2-5350A745B20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0173CA-6D3A-43E0-A0B2-5350A745B20A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11ED314E-F3CF-456F-A84C-D1DE67DD8461} = {B2053606-2C43-4EA8-B8E2-E235FFCE1856}
+		{5F69FBF0-A8FE-4611-B06E-0782192BFED6} = {B2053606-2C43-4EA8-B8E2-E235FFCE1856}
+		{9EBBE3B7-17F4-41D8-B4D3-C523953DE89B} = {B2053606-2C43-4EA8-B8E2-E235FFCE1856}
+		{BD14D6A3-0C0B-488C-A261-68A0B1728D29} = {B2053606-2C43-4EA8-B8E2-E235FFCE1856}
+		{8D309C4A-9B3A-49AF-A1CF-80BC5D2B64A6} = {BD14D6A3-0C0B-488C-A261-68A0B1728D29}
+		{BD0173CA-6D3A-43E0-A0B2-5350A745B20A} = {8D309C4A-9B3A-49AF-A1CF-80BC5D2B64A6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48239F43-39D6-45F3-A464-3C74B4D9663D}
+	EndGlobalSection
+EndGlobal
